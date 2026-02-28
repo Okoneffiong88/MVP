@@ -1,0 +1,11 @@
+services:
+  api:
+    build: .
+    ports:
+      - "4000:4000"
+    env_file:
+      - .env
+  redis:
+    image: redis
+  db:
+    image: postgres
