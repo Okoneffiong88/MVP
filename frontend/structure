@@ -1,0 +1,18 @@
+frontend/
+│
+├── pages/
+│   ├── login.tsx
+│   ├── dashboard.tsx
+│   ├── appointment/[id].tsx
+│
+├── components/
+│   ├── VideoCall.tsx
+│   ├── Chat.tsx
+│   ├── FileUpload.tsx
+│
+├── lib/
+│   ├── api.ts
+│   ├── socket.ts
+│
+└── context/
+    └── AuthContext.tsx
