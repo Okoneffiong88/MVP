@@ -1,0 +1,33 @@
+backend/
+│
+├── src/
+│   ├── controllers/
+│   │   ├── auth.controller.ts
+│   │   ├── appointment.controller.ts
+│   │   ├── file.controller.ts
+│   │   ├── prescription.controller.ts
+│   │   └── admin.controller.ts
+│   │
+│   ├── middleware/
+│   │   ├── auth.ts
+│   │   ├── role.ts
+│   │   ├── rateLimit.ts
+│   │
+│   ├── services/
+│   │   ├── s3.service.ts
+│   │   ├── stripe.service.ts
+│   │   ├── audit.service.ts
+│   │
+│   ├── sockets/
+│   │   └── signaling.ts
+│   │
+│   ├── routes.ts
+│   ├── app.ts
+│   └── server.ts
+│
+├── prisma/
+│   └── schema.prisma
+│
+├── Dockerfile
+├── docker-compose.yml
+└── .env
