@@ -1,6 +1,0 @@
-import CryptoJS from "crypto-js";
-
-const encrypted = CryptoJS.AES.encrypt(
-  message,
-  appointmentSecret
-).toString();

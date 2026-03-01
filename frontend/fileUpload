@@ -1,6 +1,0 @@
-const { data } = await axios.post("/files/signed-url");
-
-await fetch(data.url, {
-  method: "PUT",
-  body: file
-});
